@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldemarmeier/complete-javascript-course.git"
+  },
+  "author": "Jonas Schmedtmann, Waldemar Meier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waldemarmeier/complete-javascript-course/issues"
+  },
+  "homepage": "https://github.com/waldemarmeier/complete-javascript-course#readme",
+  "devDependencies": {
+    "webpack": "^4.32.2"
+  },
+  "dependencies": {}
+}
