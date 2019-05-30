@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n// Global app controller\n\n\n\nconst x = new _test__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('hello','world');\n\nconsole.log(x.a + \" \"+x.b);\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n// Global app controller\n\n\n\nconst x = new _test__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('hello','world');\n\nconsole.log(x.a + \" \"+x.b+\" test\");\n\nconsole.log(\"test 4\");\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
