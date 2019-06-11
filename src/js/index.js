@@ -1,13 +1,14 @@
 // Global app controller
 
-import X from './test';
+import str from './models/Search';
+import {testFunc as otherFunc} from './views/searchView';
+import {testFunc} from './views/searchView';
+import * as test from './views/searchView';
 
-const x = new X('hello','world');
 
-console.log(x.a + " "+x.b+" test");
 
-console.log("test 4");
+console.log(`using imported string: ${str}`);
 
-const test = 23;
-
-console.log(test);
+otherFunc();
+testFunc();
+test.testFunc();
